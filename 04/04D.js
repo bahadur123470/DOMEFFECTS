@@ -9,6 +9,5 @@ element.forEach( (attach) => {
     })
     attach.addEventListener("mousemove", (move) => {
         attach.childNodes[3].style.left = move.x+"px"
-        attach.childNodes[3].style.top = move.x+"px"
     })
 })
